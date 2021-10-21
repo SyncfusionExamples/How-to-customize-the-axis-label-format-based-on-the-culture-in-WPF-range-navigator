@@ -58,6 +58,8 @@ private void RangeNavigator_LowerBarLabelsCreated(object sender, Syncfusion.UI.X
         }
 ```
 
+KB article - [How-to-customize-the-axis-label-format-based-on-the-culture-in-WPF-range-navigator](https://www.syncfusion.com/kb/12207/how-to-customize-the-axis-label-format-based-on-the-culture-in-wpf-sfdatetimerangenavigator)
+
 ## See Also
 
 [How to create SfDateTimeRangeNavigator in WPF](https://help.syncfusion.com/wpf/range-selector/getting-startedhttps://help.syncfusion.com/wpf/range-selector/label-customization)
