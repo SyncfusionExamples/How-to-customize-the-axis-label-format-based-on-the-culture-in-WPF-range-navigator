@@ -7,7 +7,7 @@ This can be achieved by using the LowerBarLabelsCreated event in SfDateTimeRange
 
 The following code illustrates how to format the axis label with Chinese language using the LowerBarLabelsCreated event.
 
-[XAML]
+## XAML
 ```
 <chart:SfDateTimeRangeNavigator x:Name="RangeNavigator" 
                                             ScrollbarVisibility="Hidden" 
@@ -45,7 +45,7 @@ The following code illustrates how to format the axis label with Chinese languag
 ```
 Argument from LowerBarLabelsCreated event LowerBarLabels has list of rendered label from range navigator. By changing the content of corresponding RangeNavigatorLabel with desired format, it has been achieved.
 
-[C#]
+## C# Code
 ```
 private void RangeNavigator_LowerBarLabelsCreated(object sender, Syncfusion.UI.Xaml.Charts.LowerBarLabelsCreatedEventArgs e)
         {
