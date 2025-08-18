@@ -1,7 +1,6 @@
 # How-to-customize-the-axis-label-format-based-on-the-culture-in-WPF-range-navigator
-This article explains how to customize the axis label format based on culture in [Syncfusion WPF SfDateTimeRangeNavigator](https://help.syncfusion.com/wpf/range-selector/getting-started) as shown in the following image.
 
- ![](Output.png)
+The [Syncfusion WPF SfDateTimeRangeNavigator](https://help.syncfusion.com/wpf/range-selector/getting-started) control allows you to visualize and navigate through a range of data. One of its powerful features is the ability to customize the axis label format based on the user's culture settings. This is particularly useful in globalized applications where date, time, and number formats vary by region.
 
 This can be achieved by using the LowerBarLabelsCreated event in SfDateTimeRangeNavigator for formatting the axis labels. SfDateTimeRangeNavigator allows you to the change axis label format, based on any culture like Chinese, French etc.
 
@@ -57,8 +56,15 @@ private void RangeNavigator_LowerBarLabelsCreated(object sender, Syncfusion.UI.X
             }
         }
 ```
+## Output
 
-KB article - [How-to-customize-the-axis-label-format-based-on-the-culture-in-WPF-range-navigator](https://www.syncfusion.com/kb/12207/how-to-customize-the-axis-label-format-based-on-the-culture-in-wpf-sfdatetimerangenavigator)
+ ![](Output.png)
+
+## Troubleshooting
+
+If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to short and build the project.
+
+For step by step process, refer this KB article - [How-to-customize-the-axis-label-format-based-on-the-culture-in-WPF-range-navigator](https://www.syncfusion.com/kb/12207/how-to-customize-the-axis-label-format-based-on-the-culture-in-wpf-sfdatetimerangenavigator)
 
 ## See Also
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GettingStartedDemo
+namespace CustomLabelFormatSample
 {
     public class Model
     {
